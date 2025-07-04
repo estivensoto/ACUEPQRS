@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 
+
 function App() {
   return (
     <div style={{ padding: '20px' }}>
@@ -10,6 +11,7 @@ function App() {
         <li><Link to="/producto">Quejas</Link></li>
         <li><Link to="/producto">Reclamos</Link></li>
         <li><Link to="/producto">Sugerencias</Link></li>
+        <Route path="/reclamo" element={<Reclamo />} />
       </ul>
     </div>
   );

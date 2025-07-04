@@ -1,3 +1,4 @@
+sugerencia
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './peticion.css';
@@ -58,3 +59,6 @@ const Peticion = () => {
 };
 
 export default Peticion;
+
+=======
+>>>>>

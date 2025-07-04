@@ -1,0 +1,29 @@
+.bienvenido-container {
+  padding: 40px;
+  font-family: sans-serif;
+  background-color: #f4f9ff;
+  min-height: 100vh;
+}
+
+.bienvenido-container h1 {
+  color: #1a73e8;
+}
+
+.bienvenido-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.bienvenido-container li {
+  margin: 10px 0;
+}
+
+.bienvenido-container a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.bienvenido-container a:hover {
+  color: #1a73e8;
+}

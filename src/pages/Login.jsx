@@ -9,9 +9,8 @@ function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Validación simulada
     if (usuario && contrasena) {
-      navigate('/producto');
+      navigate('/bienvenido');
     } else {
       alert('Por favor, ingrese todos los campos');
     }
